@@ -1,0 +1,42 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.remote-video{
+    width:100vw;
+    height:100vh;
+    background: black;
+}
+.local-video{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 230px;
+    z-index: 10;
+    background:#fff;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.opt{
+    position: fixed;
+    left:40px;
+    top: 100px;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebRTC点对点通信示例</title>
+        <link rel="stylesheet" href="css/p2p.css" />
+    </head>
+    <body>
+        <div class="remote-video">
+            <video autoplay id="remoteVideo"></video>
+        </div>
+        <div class="local-video">
+            <video autoplay muted id="localVideo"></video>
+        </div>
+        <div class="opt">
+            <button class="btn" id="callBtn">呼叫</button>
+            <button class="btn" id="handupBtn">挂断</button>
+        </div>
+        <script src="../lib/socket.io/socket.io.js"></script>
+        <script src="js/p2p.js"></script>
+    </body>
+</html>
